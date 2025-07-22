@@ -1,0 +1,89 @@
+  .font-space-mono {
+    font-family: 'Space Mono', monospace;
+  }
+
+  .font-work-sans {
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  
+
+
+  #Magic-mash {
+    background-image: linear-gradient(rgba(161, 89, 255, 0), rgba(162, 89, 255, 1)), url(img/NFT-highMobile.png);
+    background-size: cover;
+    height: 130vh;
+  }
+  .custom-placeholder::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    opacity: 1;}
+
+
+  @media (max-width: 768px) {
+  #Magic-mash {
+    background-size: cover;       /* contain = image puri dikhayi jaayegi */
+    background-position: top;       /* ya center, ya left */
+    height: 80vh;                   /* mobile pe kam height */
+    background-repeat: no-repeat;
+    
+  }
+}
+
+.slight-hover {
+  display: inline-block; /* or block */
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.slight-hover:hover {
+  transform: scale(0.95);
+}
+
+
+
+
+  .timer-box {
+    background-color: #68407ac9;
+    color: white;
+    padding: 50px 0;
+    width: 80%;
+    border-radius: 20px;
+    font-size: 2.5rem;
+    font-family: monospace;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  }
+
+
+
+  @media (max-width: 768px) {
+  .timer-box {
+    padding: 30px 0px;
+    width: 100%;
+  }
+}
+  @media (max-width: 768px) {
+  #weekly-digest {
+    background-color: #2B2B2B !important;
+  }
+  #weekly-photo .spaceImg{
+    /* width: 800px !important; */
+    height: 300px !important;
+  }
+}
+
+footer p {
+  color: #9c9c9c;
+  padding: auto;
+}
+input:focus,
+input:active{
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+@media (max-width: 768px) {
+.create-acc-btn{
+width: 350px !important;
+}
+}
