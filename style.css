@@ -5,14 +5,20 @@
   .font-work-sans {
     font-family: 'Work Sans', sans-serif;
   }
-
-  
-
+  .text-footer {
+    color: #b9b6b6 !important;
+}
+body {
+  overflow-x: hidden !important ;
+}
+.no-padding-overflow * {
+    box-sizing: border-box;
+  }
 
   #Magic-mash {
     background-image: linear-gradient(rgba(161, 89, 255, 0), rgba(162, 89, 255, 1)), url(img/NFT-highMobile.png);
     background-size: cover;
-    height: 130vh;
+    height: 70vh;
   }
   .custom-placeholder::placeholder {
     color: rgba(255, 255, 255, 0.6);
@@ -83,7 +89,7 @@ input:active{
 }
 
 @media (max-width: 768px) {
-.create-acc-btn{
-width: 350px !important;
-}
+  h1 {
+    font-size: 2rem !important; /* h5 size approx */
+  }
 }
