@@ -61,17 +61,17 @@ body {
     font-family: monospace;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
   }
- .timer-box-orbition{
-   background-color: #68407ac9;
-    color: white;
-    width: 30vw;
-    padding: 50px 0px;
-    border-radius: 20px;
-    font-size: 2.5rem;
-    font-weight: 600;
-    font-family: monospace;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
- }
+  .timer-box-orbition{
+    background-color: #68407ac9;
+     color: white;
+     width: 30vw;
+     padding: 50px 0px;
+     border-radius: 20px;
+     font-size: 2.5rem;
+     font-weight: 600;
+     font-family: monospace;
+     box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  }
 
 
   @media (max-width: 768px) {
