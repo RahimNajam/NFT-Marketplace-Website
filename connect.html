@@ -13,16 +13,19 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body style="background-color: #2B2B2B; color: white;">
     <section id="account" class=" pt-md-3 ps-0 ">
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent px-md-3">
-            <div class="container-fluid d-flex justify-content-between align-items-center">
+        <nav data-aos="fade-down" data-aos-duration="1000"
+            class="navbar navbar-expand-lg navbar-dark bg-transparent px-md-3">
+            <div class="container d-flex justify-content-between align-items-center">
                 <a class="navbar-brand d-flex align-items-center ps-4" href="index.html">
                     <img src="./img/Storefront.png" alt="Logo" class="me-2" style="height: 40px;">
-                   <span class="font-space-mono "> NFT Marketplace</span>
+                    <span class="font-space-mono "> NFT Marketplace</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,11 +33,15 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav align-items-center gap-3">
-                        <li class="nav-item"><a class="slight-hover nav-link text-white fw-bold" href="marketplace.html">Marketplace</a></li>
-                        <li class="nav-item"><a class="slight-hover nav-link text-white fw-bold" href="ranking.html">Rankings</a></li>
-                        <li class="nav-item"><a class="slight-hover nav-link text-white fw-bold" href="connect.html">Connect a wallet</a></li>
+                        <li class="nav-item"><a class="slight-hover nav-link text-white fw-bold"
+                                href="marketplace.html">Marketplace</a></li>
+                        <li class="nav-item"><a class="slight-hover nav-link text-white fw-bold"
+                                href="ranking.html">Rankings</a></li>
+                        <li class="nav-item"><a class="slight-hover nav-link text-white fw-bold"
+                                href="connect.html">Connect a wallet</a></li>
                         <li class="nav-item">
-                            <a href="account.html" class="slight-hover btn text-white fw-normal d-flex align-items-center rounded-4 py-2"
+                            <a href="account.html"
+                                class="slight-hover btn text-white fw-normal d-flex align-items-center rounded-4 py-2"
                                 style="background-color: #A259FF;">
                                 <img class="me-2" src="./img/User.png" alt="User"> Sign Up
                             </a>
@@ -51,7 +58,7 @@
                     <img class="d-none d-md-block w-100" src="./img/Account/connect wall.png" alt="">
                     <img class="d-block d-md-none img-fluid" style="height: 50vh; width: 100vh;" src="./img/Account/connect wall.png" alt="">
                 </div>
-                <div class="col-12 col-md-6 pt-md-5 ps-md-5 text-center text-md-start" >
+                <div data-aos="fade-left" data-aos-duration="2000" class="col-12 col-md-6 pt-md-5 ps-md-5 text-center text-md-start" >
                     <h1 class=" pt-md-5" style="font-size: 4rem;">Connect Wallet</h1>
                     <h3 class="font-work-sans ans fw-light pt-2">Choose a wallet you want to connect. <br>There are several wallet providers.</h3>
                    <div class="text-center align-items-center justify-content-center ">
@@ -143,7 +150,10 @@
 
 
 
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>

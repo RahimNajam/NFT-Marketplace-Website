@@ -13,13 +13,15 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body style="background-color: #2B2B2B; color: white;">
     <section id="account" class=" pt-md-3 ps-0 ">
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent px-md-3">
-            <div class="container-fluid d-flex justify-content-between align-items-center">
+        <nav data-aos="fade-down" data-aos-duration="1000"
+            class="navbar navbar-expand-lg navbar-dark bg-transparent px-md-3">
+            <div class="container d-flex justify-content-between align-items-center">
                 <a class="navbar-brand d-flex align-items-center ps-4" href="index.html">
                     <img src="./img/Storefront.png" alt="Logo" class="me-2" style="height: 40px;">
                     <span class="font-space-mono "> NFT Marketplace</span>
@@ -30,11 +32,15 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav align-items-center gap-3">
-                        <li class="nav-item"><a class="slight-hover nav-link text-white fw-bold" href="marketplace.html">Marketplace</a></li>
-                        <li class="nav-item"><a class="slight-hover nav-link text-white fw-bold" href="ranking.html">Rankings</a></li>
-                        <li class="nav-item"><a class="slight-hover nav-link text-white fw-bold" href="connect.html">Connect a wallet</a></li>
+                        <li class="nav-item"><a class="slight-hover nav-link text-white fw-bold"
+                                href="marketplace.html">Marketplace</a></li>
+                        <li class="nav-item"><a class="slight-hover nav-link text-white fw-bold"
+                                href="ranking.html">Rankings</a></li>
+                        <li class="nav-item"><a class="slight-hover nav-link text-white fw-bold"
+                                href="connect.html">Connect a wallet</a></li>
                         <li class="nav-item">
-                            <a href="account.html" class="slight-hover btn text-white fw-normal d-flex align-items-center rounded-4 py-2"
+                            <a href="account.html"
+                                class="slight-hover btn text-white fw-normal d-flex align-items-center rounded-4 py-2"
                                 style="background-color: #A259FF;">
                                 <img class="me-2" src="./img/User.png" alt="User"> Sign Up
                             </a>
@@ -51,36 +57,40 @@
                     <img class="d-none d-md-block w-100" src="./img/Account/Image Placeholder.png" alt="">
                     <img class="d-block d-md-none w-100 " src="./img/Account/Image Placeholder short.png" alt="">
                 </div>
-                <div class=" col-md-6 pt-md-5 px-5 text-center text-md-start">
+                <div data-aos="fade-right" data-aos-duration="2000" class=" col-md-6 pt-md-5 px-5 text-center text-md-start">
                     <h1 class="font-work-sans pt-md-5">Create Account</h1>
-                    <h4 class="font-work-sans fw-light pt-2 lh-base">Welcome! enter your details and start creating,<br class="d-none d-md-block"> collecting
+                    <h4 class="font-work-sans fw-light pt-2 lh-base">Welcome! enter your details and start creating,<br
+                            class="d-none d-md-block"> collecting
                         and selling NFTs.</h4>
                     <div class="mb-3 mt-5 ">
                         <div class="w-100 w-md-75 w-lg-100" style="max-width: 370px;">
                             <div class="input-group rounded-4 px-1 mb-3 input-group-text bg-white rounded-pill">
-                                
-                                    <img src="./img/Account/User.png" alt="Email Icon" width="20" height="20">
-                                    <input type="email" class="form-control border-start-0 font-work-sans" id="email"
-                                        placeholder="Username">
-                          </div>
-                            <div class="input-group rounded-4 px-1 mb-3 input-group-text bg-white rounded-pill">
-                                    <img src="./img/Account/EnvelopeSimple.png" alt="Email Icon" width="20" height="20">
-                                    <input type="email" class="form-control border-start-0 " id="email"
-                                        placeholder="Email Address">
+
+                                <img src="./img/Account/User.png" alt="Email Icon" width="20" height="20">
+                                <input type="email" class="form-control border-start-0 font-work-sans" id="email"
+                                    placeholder="Username">
                             </div>
                             <div class="input-group rounded-4 px-1 mb-3 input-group-text bg-white rounded-pill">
-                                    <img src="./img/Account/LockKey.png" alt="Email Icon" width="20" height="20">
-                                    <input type="email" class="form-control border-start-0  " id="email"
-                                        placeholder="Password">
+                                <img src="./img/Account/EnvelopeSimple.png" alt="Email Icon" width="20" height="20">
+                                <input type="email" class="form-control border-start-0 " id="email"
+                                    placeholder="Email Address">
+                            </div>
+                            <div class="input-group rounded-4 px-1 mb-3 input-group-text bg-white rounded-pill">
+                                <img src="./img/Account/LockKey.png" alt="Email Icon" width="20" height="20">
+                                <input type="email" class="form-control border-start-0  " id="email"
+                                    placeholder="Password">
                             </div>
                             <div class="input-group rounded-4 px-1 input-group-text  rounded-pill">
-                                    <img src="./img/Account/LockKey.png" alt="Email Icon" width="20" height="20">
-                                    <input type="email" class="form-control border-start-0 " id="email"
-                                        placeholder="Confirm Password">
+                                <img src="./img/Account/LockKey.png" alt="Email Icon" width="20" height="20">
+                                <input type="email" class="form-control border-start-0 " id="email"
+                                    placeholder="Confirm Password">
                             </div>
-                                <a href="#" class="mt-4 px-1 w-100  slight-hover btn text-white  py-3 rounded-pill fw-semibold font-work-sans" style="background-color: #A259FF; " >Create Account</a>
+                            <a href="#"
+                                class="mt-4 px-1 w-100  slight-hover btn text-white  py-3 rounded-pill fw-semibold font-work-sans"
+                                style="background-color: #A259FF; ">Create Account</a>
                         </div>
-                        
+
+                    </div>
                     </div>
     </section>
     <footer style="background-color: #363636; ">
@@ -154,6 +164,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
